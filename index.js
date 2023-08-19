@@ -2,7 +2,7 @@ const fs = require("fs");
 const csvParser = require("csv-parser");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 const Candle = require("./candleSticks.js");
-const singlePatterns = require("./patternIdentifiers");
+const singlePatterns = require("./patternIdentifiers.js");
 
 const inputFilePath =
   "/Users/sagarsaluja/Documents/NSE data 2000 to 2021/archive/ASIANPAINT.csv";
